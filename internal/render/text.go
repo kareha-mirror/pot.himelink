@@ -3,8 +3,8 @@ package render
 import (
 	"net/http"
 
-	"github.com/akikareha/himelink/internal/config"
-	"github.com/akikareha/himelink/internal/templates"
+	"tea.kareha.org/pot/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/templates"
 )
 
 func RenderText(
@@ -17,10 +17,10 @@ func RenderText(
 	tmpl.Execute(w, struct {
 		SiteName string
 		Title    string
-		Text string
+		Text     string
 	}{
 		SiteName: cfg.Site.Name,
 		Title:    filename,
-		Text: string(raw),
+		Text:     string(raw),
 	})
 }

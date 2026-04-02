@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/akikareha/himelink/internal/config"
-	"github.com/akikareha/himelink/internal/gitea"
-	"github.com/akikareha/himelink/internal/github"
+	"tea.kareha.org/pot/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/gitea"
+	"tea.kareha.org/pot/himelink/internal/github"
 )
 
 func RegisterRoutes(cfg *config.Config, r chi.Router) {

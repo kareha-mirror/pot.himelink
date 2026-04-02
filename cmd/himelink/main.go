@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/akikareha/himelink/internal/config"
-	"github.com/akikareha/himelink/internal/server"
+	"tea.kareha.org/pot/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/server"
 )
 
 func main() {

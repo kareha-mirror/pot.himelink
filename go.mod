@@ -1,4 +1,4 @@
-module github.com/akikareha/himelink
+module tea.kareha.org/pot/himelink
 
 go 1.24.4
 

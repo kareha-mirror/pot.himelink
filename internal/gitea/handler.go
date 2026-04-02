@@ -11,8 +11,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/akikareha/himelink/internal/config"
-	"github.com/akikareha/himelink/internal/render"
+	"tea.kareha.org/pot/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/render"
 )
 
 type repoInfo struct {

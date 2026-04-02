@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/akikareha/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/config"
 )
 
 func handleStatic(cfg *config.Config, w http.ResponseWriter, r *http.Request) bool {

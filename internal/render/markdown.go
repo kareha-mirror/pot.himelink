@@ -9,8 +9,8 @@ import (
 	"github.com/yuin/goldmark/extension"
 	"github.com/yuin/goldmark/text"
 
-	"github.com/akikareha/himelink/internal/config"
-	"github.com/akikareha/himelink/internal/templates"
+	"tea.kareha.org/pot/himelink/internal/config"
+	"tea.kareha.org/pot/himelink/internal/templates"
 )
 
 var md = goldmark.New(
